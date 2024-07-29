@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solución Técnica de Alto Nivel</title>
+</head>
+<body>
+    <h1>Solución Técnica de Alto Nivel</h1>
+
+    <h2>Arquitectura</h2>
+    <p>La aplicación seguirá una arquitectura de tres capas:</p>
+    <ol>
+        <li>Capa de Presentación: Frontend web utilizando HTML, CSS (Bulma) y JavaScript</li>
+        <li>Capa de Lógica de Negocio: Backend en Python utilizando el framework Flask</li>
+        <li>Capa de Datos: Base de datos PostgreSQL</li>
+    </ol>
+
+    <h2>Tecnologías Principales</h2>
+    <ul>
+        <li>Frontend:
+            <ul>
+                <li>HTML5</li>
+                <li>Bulma CSS para el diseño responsive</li>
+                <li>JavaScript (Vue.js) para interactividad</li>
+                <li>Chart.js para visualizaciones</li>
+            </ul>
+        </li>
+        <li>Backend:
+            <ul>
+                <li>Python 3.9+</li>
+                <li>Flask (framework web)</li>
+                <li>SQLAlchemy (ORM)</li>
+                <li>Flask-RESTful para API RESTful</li>
+                <li>Flask-JWT-Extended para autenticación</li>
+            </ul>
+        </li>
+        <li>Base de Datos:
+            <ul>
+                <li>PostgreSQL 13+</li>
+            </ul>
+        </li>
+        <li>Despliegue:
+            <ul>
+                <li>Docker para containerización</li>
+                <li>Nginx como servidor web y proxy inverso</li>
+                <li>Gunicorn como servidor WSGI</li>
+            </ul>
+        </li>
+    </ul>
+
+    <h2>Diagrama de Arquitectura</h2>
+    <pre>
+    [Usuario] <-> [Navegador Web]
+                      ^
+                      |
+                      v
+    [Nginx (Proxy Inverso)] <-> [Gunicorn + Flask App]
+                                        ^
+                                        |
+                                        v
+                                [PostgreSQL DB]
+    </pre>
+    <p>Esta arquitectura permite una separación clara de responsabilidades, escalabilidad y mantenimiento sencillo.</p>
+</body>
+</html>

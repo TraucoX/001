@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Historias de Usuario - Sprint 1</title>
+</head>
+<body>
+    <h1>Historias de Usuario - Sprint 1</h1>
+
+    <h2>GAST-1: Configuración del Entorno de Desarrollo</h2>
+    <p>Como desarrollador, quiero tener un entorno de desarrollo configurado para poder comenzar a trabajar en el proyecto.</p>
+    <h3>Criterios de Aceptación:</h3>
+    <ul>
+        <li>Repositorio Git inicializado</li>
+        <li>Entorno virtual de Python creado</li>
+        <li>Dependencias iniciales instaladas (Flask, SQLAlchemy, etc.)</li>
+        <li>Archivo README.md con instrucciones de configuración</li>
+    </ul>
+    <p>Estimación: 2 puntos</p>
+
+    <h2>GAST-2: Implementar Registro de Usuarios</h2>
+    <p>Como usuario nuevo, quiero poder registrarme en la aplicación para comenzar a usar el sistema de control de gastos.</p>
+    <h3>Criterios de Aceptación:</h3>
+    <ul>
+        <li>Formulario de registro con campos: nombre, email, contraseña</li>
+        <li>Validación de campos (email único, contraseña segura)</li>
+        <li>Almacenamiento seguro de contraseñas (hashing)</li>
+        <li>Mensaje de confirmación tras registro exitoso</li>
+    </ul>
+    <p>Estimación: 5 puntos</p>
+
+    <h2>GAST-3: Implementar Login/Logout</h2>
+    <p>Como usuario registrado, quiero poder iniciar y cerrar sesión en la aplicación para acceder a mis datos de forma segura.</p>
+    <h3>Criterios de Aceptación:</h3>
+    <ul>
+        <li>Formulario de login con email y contraseña</li>
+        <li>Autenticación mediante JWT</li>
+        <li>Página de inicio personalizada después del login</li>
+        <li>Opción de logout visible en todas las páginas autenticadas</li>
+        <li>Redirección a página de login después del logout</li>
+    </ul>
+    <p>Estimación: 5 puntos</p>
+
+    <h2>GAST-4: Crear Estructura Básica de la Base de Datos</h2>
+    <p>Como desarrollador, quiero tener una estructura inicial de la base de datos para poder comenzar a implementar las funcionalidades principales.</p>
+    <h3>Criterios de Aceptación:</h3>
+    <ul>
+        <li>Modelo de Usuario creado</li>
+        <li>Modelo básico de Gasto creado (sin categorías aún)</li>
+        <li>Migraciones de base de datos configuradas</li>
+        <li>Script para inicializar la base de datos con datos de prueba</li>
+    </ul>
+    <p>Estimación: 3 puntos</p>
+
+    <h2>GAST-5: Diseñar Interfaz Básica con Bulma CSS</h2>
+    <p>Como usuario, quiero ver una interfaz de usuario básica y responsive para poder interactuar con la aplicación en diferentes dispositivos.</p>
+    <h3>Criterios de Aceptación:</h3>
+    <ul>
+        <li>Navbar con opciones de login/registro/logout</li>
+        <li>Página de inicio con descripción básica de la app</li>
+        <li>Formularios de login y registro estilizados con Bulma</li>
+        <li>Diseño responsive que funciona en móviles y escritorio</li>
+    </ul>
+    <p>Estimación: 5 puntos</p>
+</body>
+</html>
