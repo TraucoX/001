@@ -1,0 +1,27 @@
+# Requerimientos del Proyecto: Finanzas Claras
+
+## Requerimientos Funcionales
+
+1. Registro e inicio de sesión de usuarios
+2. Añadir, editar y eliminar gastos
+3. Categorización de gastos
+4. Visualización de gastos en gráficos y tablas
+5. Establecer y gestionar presupuestos mensuales
+6. Generar informes de gastos por período y categoría
+7. Buscar y filtrar gastos
+8. Recibir notificaciones de límites de presupuesto
+9. Exportar datos de gastos en formatos comunes (CSV, PDF)
+10. Soporte para múltiples monedas (enfoque principal en peso chileno)
+
+## Requerimientos No Funcionales
+
+1. Usabilidad: Interfaz intuitiva y fácil de usar
+2. Rendimiento: Tiempo de respuesta < 2 segundos para operaciones comunes
+3. Seguridad: Encriptación de datos sensibles, autenticación segura
+4. Disponibilidad: Tiempo de actividad del 99.9%
+5. Escalabilidad: Soporte para al menos 10,000 usuarios concurrentes
+6. Compatibilidad: Funciona en navegadores modernos y dispositivos móviles
+7. Mantenibilidad: Código bien documentado y modular
+8. Privacidad: Cumplimiento con regulaciones de protección de datos (GDPR)
+9. Confiabilidad: Backup diario de datos
+10. Internacionalización: Soporte para múltiples idiomas (prioridad en español)

@@ -1,0 +1,32 @@
+# Arquitectura Técnica: Finanzas Claras
+
+## Visión General
+La aplicación seguirá una arquitectura de tres capas:
+
+1. Capa de Presentación: Frontend web utilizando HTML, CSS (Bulma) y JavaScript
+2. Capa de Lógica de Negocio: Backend en Python utilizando el framework Flask
+3. Capa de Datos: Base de datos MongoDB Atlas
+
+## Tecnologías Principales
+
+### Frontend:
+- HTML5
+- Bulma CSS para el diseño responsive
+- JavaScript (uso mínimo) para interactividad básica
+- Gráficos generados en el servidor
+
+### Backend:
+- Python 3.9+
+- Flask (framework web)
+- Flask-PyMongo para interacción con MongoDB
+- Flask-Login para autenticación
+
+### Base de Datos:
+- MongoDB Atlas
+
+### Despliegue:
+- Servicio de hosting en la nube (por determinar)
+- Nginx como servidor web y proxy inverso
+- Gunicorn como servidor WSGI
+
+## Diagrama de Arquitectura

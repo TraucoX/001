@@ -1,0 +1,19 @@
+# Declaración del Problema: Finanzas Claras
+
+## Contexto
+Actualmente, muchas personas enfrentan dificultades para gestionar eficazmente sus finanzas personales debido a la falta de herramientas accesibles y fáciles de usar. Esto resulta en:
+
+1. Falta de visibilidad sobre los patrones de gasto.
+2. Dificultad para establecer y mantener presupuestos.
+3. Incapacidad para tomar decisiones financieras informadas.
+4. Estrés financiero y potencial endeudamiento.
+
+## Solución Propuesta
+Desarrollar una aplicación web llamada "Finanzas Claras" que permita a los usuarios:
+
+- Registrar y categorizar sus gastos de manera sencilla.
+- Visualizar sus patrones de gasto a lo largo del tiempo.
+- Establecer y monitorear presupuestos.
+- Recibir insights y recomendaciones para mejorar sus hábitos financieros.
+
+La aplicación será accesible desde dispositivos móviles y de escritorio, proporcionando una herramienta intuitiva y eficaz para la gestión financiera personal.

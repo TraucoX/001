@@ -1,0 +1,43 @@
+# Plan de Desarrollo: Finanzas Claras
+
+## Sprint 1: Configuración y Autenticación
+- Configurar el entorno de desarrollo
+- Implementar registro de usuarios
+- Implementar login/logout
+- Crear estructura básica de la base de datos
+
+## Sprint 2: Gestión de Gastos
+- Implementar CRUD de gastos
+- Diseñar e implementar la interfaz de usuario para ingresar gastos
+- Crear vista de lista de gastos con filtros básicos
+
+## Sprint 3: Categorización y Reportes
+- Implementar sistema de categorías de gastos
+- Crear interfaz para gestionar categorías
+- Desarrollar reportes básicos de gastos por categoría
+
+## Sprint 4: Visualizaciones y Gráficos
+- Integrar generación de gráficos en el servidor
+- Implementar gráficos de gastos por categoría y tiempo
+- Mejorar la interfaz de usuario para visualizaciones
+
+## Sprint 5: Presupuestos y Notificaciones
+- Implementar sistema de presupuestos
+- Crear interfaz para establecer y editar presupuestos
+- Desarrollar sistema de notificaciones para límites de presupuesto
+
+## Sprint 6: Exportación y Búsqueda
+- Implementar exportación de datos (CSV, PDF)
+- Desarrollar funcionalidad de búsqueda avanzada
+- Optimizar rendimiento de consultas
+
+## Sprint 7: Múltiples Monedas y Pruebas
+- Implementar soporte para múltiples monedas (prioridad en peso chileno)
+- Realizar pruebas exhaustivas de la aplicación
+- Corrección de bugs y optimizaciones
+
+## Sprint 8: Finalización y Despliegue
+- Implementar internacionalización (prioridad en español)
+- Configurar entorno de producción
+- Realizar despliegue inicial
+- Documentación final y preparación para lanzamiento
